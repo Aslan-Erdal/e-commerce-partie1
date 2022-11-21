@@ -1,0 +1,307 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'League Spartan', sans-serif;
+    src: url(font/LeagueSpartan-Regular.ttf);
+}
+
+/*/////////////DEBUT DU RESET/////////////////////*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+img{
+
+    max-width: 100%;
+    display: block;
+}
+
+:root{
+    --color-green : #006637;
+    --color-white : #ffffff;
+    --color-background : #F5F5F7;
+    --color-black : #000000;
+    --color-grey : #919090;
+
+}
+
+
+body{
+    background: var(--color-background) ;
+}
+
+/* div, section, main, header, nav{
+    border: 5px solid black;
+} */
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column{
+    flex-direction: column;
+    background: var(--color-white);
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    color: white;
+    margin-bottom: 20px;
+    
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+/*//////////////FIN DU RESET///////////////////*/
+
+/* ////////////NAVIGATION ////////////////// */
+
+nav{
+    gap: 55px;
+    min-height: 102px;
+    background: var(--color-black);
+    padding: 10px;
+}
+
+nav a:hover{
+    color: var(--color-grey);
+}
+
+.search{
+    border-radius: 20px;
+    background: var(--color-white);
+    width: min(515px, 100%);
+    min-height: 45px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.icon{
+    gap: 30px;
+}
+
+/* //////////////////MAIN//////////////////// */
+
+main{
+    width: min(1278px, 100%);
+    margin: 49px auto 100px;
+}
+
+/* ////////////////// PRODUIT ///////////////// */
+
+.produit{
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.column img{
+    margin: 25px 19px;
+}
+
+.mini{
+    align-self: flex-start;
+}
+
+.mannequin{
+    min-height: 877px;
+    background: var(--color-white);
+    padding: 31px 40px;
+
+}
+
+.favoris{
+    position: relative;
+}
+
+.heart {
+    position: absolute;
+    bottom: 35px;
+    right: 45px;
+
+ }
+
+label {
+    font-size: clamp(14px,5vw,16px);
+    padding-right: 10px;
+}
+
+::selection {
+    font-size: clamp(14px,5vw,16px);
+    padding: 2px 5px;
+}
+
+.detail{
+    padding: 31px 10px;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.livraison{
+    padding: 10px;
+    gap: 10px;
+    margin-top: 50px;
+    align-items: flex-start;
+
+}
+
+.recap{
+    background: none;
+    align-self: flex-start;
+}
+
+.recap button{
+    background:var(--color-green) ;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+/* ///////////////////FOOTER ////////////////////////// */
+
+.paiement img{
+    display: inline-block;
+    padding: 20px;
+    width: 110;
+    height: 80px;
+    
+}
+
+.paiement .logo{
+    width: 120px;
+    height: 120px;
+}
+
+.paiement{
+    background: var(--color-black);
+    padding: 0 20px;
+}
+
+.footer{
+    background: var(--color-black);
+    padding: 30px;
+}
+
+.footer img{
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+
+}
+
+.bloc4{
+    background: var(--color-black);
+    padding-bottom: 30px;
+}
+
+.bloc4 button{
+    background: var(--color-black);
+    color: white;
+    border: 1px solid white;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+#email{
+    width: 250px;
+    min-height: 25px;
+    border-radius: 5px;
+}
+
+.bloc1, .bloc2, .bloc3{
+    width: 33%;
+    min-height: 220px;
+
+
+}
+.footer li{
+    padding: 10px 0;
+}
+
+.newsletter p{
+    color: white;
+    margin-top: 15px;
+}
+
+.bloc3 img{
+    padding: 10px;
+}
+
+.bloc3 h2{
+    text-align: center;
+}
+
+.reseau{
+    justify-content: space-around;
+}
+.newsletter ::placeholder{
+    padding: 5px;
+}
+
+/* ///////////////////////CATEGORIE CSS /////////////////////////////////// */
+
+.mannequin2{
+    min-height: 502px;
+    background: var(--color-white);
+    padding: 20px;
+
+}
+
+.cate{
+    width: 335px;
+    
+
+}
+
+.boite1, .boite2{
+
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.boite2{
+    margin-top: 50px;
+}
+
+.heart2{
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+}
+
+.detail h2{
+    color: black;
+    font-size: clamp(10px,5vw,26px);
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
