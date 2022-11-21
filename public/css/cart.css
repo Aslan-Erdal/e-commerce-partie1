@@ -11,8 +11,10 @@ body {
     background-color: #f5f5f7;
 }
 
-p, label {
-    font-size: clamp(14px, 5vh, 18px)
+p,
+label {
+    font-size: clamp(14px, 5vh, 18px);
+    font-weight: 300;
 }
 
 .flex-crt {
@@ -20,16 +22,21 @@ p, label {
     justify-content: center;
 }
 
- /* ### CSS CART ### */
-.box-article-crt h1, .box-article-crt h3, .cart-article-crt, .article-text-crt, .total-box-crt {
-background-color: white;
+/* ### CSS CART ### */
+.box-article-crt h1,
+.box-article-crt h3,
+.cart-article-crt,
+.article-text-crt,
+.total-box-crt {
+    background-color: white;
 }
 
 .box-article-crt h3 {
     font-size: clamp(18px, 5vh, 36px);
 }
 
-.box-article-crt h1, .box-article-crt h3 {
+.box-article-crt h1,
+.box-article-crt h3 {
     padding: 18px 0 18px 38px;
     font-weight: 400;
     justify-content: space-around;
@@ -52,7 +59,7 @@ background-color: white;
     align-items: center;
 }
 
-.cart-article-crt  {
+.cart-article-crt {
     width: min(675px, 100%);
     min-height: 510px;
     gap: 40px;
@@ -62,9 +69,10 @@ background-color: white;
 }
 
 .cart-article-crt img {
-    max-width: 290px; 
+    max-width: 290px;
     height: 433px;
-    display: block; /* make my image block element */
+    display: block;
+    /* make my image block element */
 }
 
 .box-article-crt {
@@ -90,7 +98,7 @@ background-color: white;
 
 .article-text-crt .form-crt {
     justify-content: space-between;
-    
+
 }
 
 .article-text-crt .form-crt label {
@@ -160,10 +168,12 @@ background-color: white;
         flex-direction: column;
         padding: 11px;
     }
+
     .cart-article-crt img {
-        min-width: 100%; 
+        min-width: 100%;
         min-height: 300px;
-        display: block; /* make my image block element */
+        display: block;
+        /* make my image block element */
     }
 
     .article-text-crt {
