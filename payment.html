@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/cart.css">
-    <title>Panier</title>
+    <link rel="stylesheet" href="/public/css/payment.css">
+    <title>Payment</title>
 </head>
 
 <body>
@@ -18,16 +18,16 @@
     </header>
 
     <!-- PAIEMENT SECTION-->
-    <section class="payment-container-pyt">
+    <section class="payment-container-pyt flex-pyt">
 
-        <div class="payment-box1-pyt">
+        <div class="payment-box1-pyt flex-pyt">
             <h1>Paiement</h1>
 
             <!-- PROMO START HERE -->
             <div class="promo-payment-pyt">
                 <form>
                     <label for="promo-input-pyt">Code promo :
-                        <input type="text" name="promo-input-pyt" id="promo-input-pyt">
+                        <input type="text" placeholder="Ajouter votre code promo" name="promo-input-pyt" id="promo-input-pyt">
                         <input type="button" value="Entrer">
                     </label>
                 </form>
@@ -45,24 +45,24 @@
                 <h2>Addresse de livraison</h2>
                 <hr>
                 <h3>Ajouter une addresse :</h3>
-                <form>
-                    <div class="form-box-payment-pyt">
+                <form class="flex-pyt">
+                    <div class="form-box-payment-pyt flex-pyt">
                         <label for="prenom">Prénom : </label>
                         <input type="text" name="prenom" id="prenom">
                     </div>
-                    <div class="form-box-payment-pyt">
+                    <div class="form-box-payment-pyt flex-pyt">
                         <label for="nom">Nom de famille : </label>
                         <input type="text" name="nom" id="nom">
                     </div>
-                    <div class="form-box-payment-pyt">
+                    <div class="form-box-payment-pyt flex-pyt">
                         <label for="portable">Portable : </label>
                         <input type="text" name="portable" id="portable">
                     </div>
-                    <div class="form-box-payment-pyt">
+                    <div class="form-box-payment-pyt flex-pyt">
                         <label for="addr-livraison">Addresse de livraison : </label>
                         <input type="text" name="addr-livraison" id="addr-livraison">
                     </div>
-                    <div class="form-box-payment-pyt">
+                    <div class="form-box-payment-pyt flex-pyt">
                         <label for="pays">Pays : </label>
                         <input type="text" name="pays" id="pays">
                     </div>
@@ -71,44 +71,46 @@
             </div>
         </div>
 
-        <div class="payment-box2-pyt">
+        <div class="payment-box2-pyt flex-pyt">
 
             <!-- ARTICLE BOX START HERE -->
             <div class="box-article-payment-pyt">
                 <h2>Article</h2>
                 <hr>
-                <div class="article-payment-pyt">
-                    <img src="/images/img_article.png" alt="image pontalon">
-                    <div class="article-textbox-pyt">
-                        <p>39.99</p>
+                <div class="article-payment-pyt flex-pyt">
+                    <img src="/public/images/img_article_payment.png" alt="image pontalon">
+                    <div class="article-textbox-pyt flex-pyt">
+                        <h3>39.99</h3>
                         <p>Jeans lorem ipsum</p>
                         <p>Blue<span>W29</span><span>L29</span></p>
                         <p>Quantité: 1</p>
                     </div>
-                    <hr>
-                    <h3>Sous-total : <span>39.99</span></h3>
                 </div>
+                <hr>
+                    <h3>Sous-total : <span>39.99</span></h3>
             </div>
 
             <!-- PAIEMENT VISA START HERE -->
             <div class="payment-box-pyt">
                 <h2>Paiement</h2>
                 <div class="card-infos-pyt">
-                    <div class="card-infos-pyt">
+                    <form class="form-card-infos-pyt flex-pyt">
                         <div class="form-box-payment-pyt">
-                            <label for="pays">Pays : </label>
-                            <input type="text" name="pays" id="pays">
+                            <label for="pays">Numéro de la carte : </label>
+                            <input class="input-cart" type="text" name="pays" id="pays">
                         </div>
-                        <div class="month-year-pyt">
-                            <select id="livraison" name="livraison">
-                                <option value="a domicile">a domicile</option>
-                                <option value="point relais">point relais</option>
-                                <option value="le jour meme">le jour meme</option>
+                        <div class="month-year-pyt flex-pyt">
+                            <select id="mois" name="mois" value="mois">
+                                <option value="mois">Mois</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
                             </select>
-                            <select id="livraison" name="livraison">
-                                <option value="a domicile">a domicile</option>
-                                <option value="point relais">point relais</option>
-                                <option value="le jour meme">le jour meme</option>
+                            <select id="year" name="year">
+                                <option value="year">Année</option>
+                                <option value="2000">2000</option>
+                                <option value="2001">2001</option>
+                                <option value="2003">2003</option>
                             </select>
                         </div>
                         <div class="form-box-payment-pyt">
@@ -116,7 +118,7 @@
                             <input type="text" name="cvv" id="cvv">
                         </div>
                         <input type="submit" value="Enregistrer">
-                    </div>
+                    </form>
                 </div>
             </div>
     </section>
