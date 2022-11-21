@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/cart.css">
+    <title>Panier</title>
+</head>
+
+<body>
+    <!-- HEADER START HERE -->
+    <header style="border: 1px solid black; padding: 50px;">
+        <nav>
+            Navbar
+        </nav>
+    </header>
+
+    <!-- PAIEMENT SECTION-->
+    <section class="payment-container-pyt">
+
+        <div class="payment-box1-pyt">
+            <h1>Paiement</h1>
+
+            <!-- PROMO START HERE -->
+            <div class="promo-payment-pyt">
+                <form>
+                    <label for="promo-input-pyt">Code promo :
+                        <input type="text" name="promo-input-pyt" id="promo-input-pyt">
+                        <input type="button" value="Entrer">
+                    </label>
+                </form>
+            </div>
+
+            <!-- MY EMAIL BLOCK START HERE -->
+            <div class="email-payment-pyt">
+                <p>Votre email :
+                    <span>loremipsum@gmail.com</span>
+                </p>
+            </div>
+
+            <!-- PAYMENT ADDRESS START HERE  -->
+            <div class="addr-livraison-payment-pyt">
+                <h2>Addresse de livraison</h2>
+                <hr>
+                <h3>Ajouter une addresse :</h3>
+                <form>
+                    <div class="form-box-payment-pyt">
+                        <label for="prenom">Prénom : </label>
+                        <input type="text" name="prenom" id="prenom">
+                    </div>
+                    <div class="form-box-payment-pyt">
+                        <label for="nom">Nom de famille : </label>
+                        <input type="text" name="nom" id="nom">
+                    </div>
+                    <div class="form-box-payment-pyt">
+                        <label for="portable">Portable : </label>
+                        <input type="text" name="portable" id="portable">
+                    </div>
+                    <div class="form-box-payment-pyt">
+                        <label for="addr-livraison">Addresse de livraison : </label>
+                        <input type="text" name="addr-livraison" id="addr-livraison">
+                    </div>
+                    <div class="form-box-payment-pyt">
+                        <label for="pays">Pays : </label>
+                        <input type="text" name="pays" id="pays">
+                    </div>
+                    <input type="submit" value="Enregistrer">
+                </form>
+            </div>
+        </div>
+
+        <div class="payment-box2-pyt">
+
+            <!-- ARTICLE BOX START HERE -->
+            <div class="box-article-payment-pyt">
+                <h2>Article</h2>
+                <hr>
+                <div class="article-payment-pyt">
+                    <img src="/images/img_article.png" alt="image pontalon">
+                    <div class="article-textbox-pyt">
+                        <p>39.99</p>
+                        <p>Jeans lorem ipsum</p>
+                        <p>Blue<span>W29</span><span>L29</span></p>
+                        <p>Quantité: 1</p>
+                    </div>
+                    <hr>
+                    <h3>Sous-total : <span>39.99</span></h3>
+                </div>
+            </div>
+
+            <!-- PAIEMENT VISA START HERE -->
+            <div class="payment-box-pyt">
+                <h2>Paiement</h2>
+                <div class="card-infos-pyt">
+                    <div class="card-infos-pyt">
+                        <div class="form-box-payment-pyt">
+                            <label for="pays">Pays : </label>
+                            <input type="text" name="pays" id="pays">
+                        </div>
+                        <div class="month-year-pyt">
+                            <select id="livraison" name="livraison">
+                                <option value="a domicile">a domicile</option>
+                                <option value="point relais">point relais</option>
+                                <option value="le jour meme">le jour meme</option>
+                            </select>
+                            <select id="livraison" name="livraison">
+                                <option value="a domicile">a domicile</option>
+                                <option value="point relais">point relais</option>
+                                <option value="le jour meme">le jour meme</option>
+                            </select>
+                        </div>
+                        <div class="form-box-payment-pyt">
+                            <label for="cvv">CVV : </label>
+                            <input type="text" name="cvv" id="cvv">
+                        </div>
+                        <input type="submit" value="Enregistrer">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- FOOTER START HERE -->
+    <footer style="border: 1px solid black; padding: 50px;">
+        Footer
+    </footer>
+
+</body>
+
+</html>

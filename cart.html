@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/cart.css">
+    <title>Panier</title>
+</head>
+
+<body>
+    <!-- HEADER START HERE -->
+    <header style="border: 1px solid black; padding: 50px;">
+        <nav>
+            Navbar
+        </nav>
+    </header>
+    <!-- CART START HERE -->
+    <section class="cart-container-crt flex-crt">
+        <div class="box-article-crt flex-crt">
+            <h1>Panier</h1>
+            <div class="cart-article-crt flex-crt">
+                <img src="/public/images/img_article.png" alt="image pantalon">
+                <div class="article-text-crt flex-crt">
+                    <h2>Prix : 39.99</h2>
+                    <p>Jeans lorem ipsum lorem lorem</p>
+                    <p>lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore tempor incididunt ut labore et dolore
+                    </p>
+                    <form class="form-crt flex-crt">
+                        <label for="taille">Choisir</label>
+                        <select id="taille" name="taille">
+                            <option value="a domicile">Taille 32</option>
+                            <option value="point relais">taille 55</option>
+                            <option value="le jour meme">taille 45</option>
+                        </select>
+                        <select id="taille" name="taille">
+                            <option value="qté">Qté</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                        </select>
+                    </form>
+                    <p>Ajoutez aux favoris</p>
+                </div>
+            </div>
+            <h3 class="flex-crt">Sous-total : <span>39.99</span></h3>
+        </div>
+        <!-- SUM START HERE -->
+        <div class="total-box-crt flex-crt">
+            <h2>Total</h2>
+            <hr>
+            <h3>Sous-total : <span>39.99</span></h3>
+            <form>
+                <label for="livraison">Livraison :</label>
+                
+                <select id="livraison" name="livraison" value="choisir">
+                    <option selected value="choisir">Choisir</option>
+                    <option value="a domicile">a domicile</option>
+                    <option value="point relais">point relais</option>
+                    <option value="le jour meme">le jour meme</option>
+                </select>
+                <input type="submit" type="Paiement">
+            </form>
+            <div>
+                <p>Jeans lorem ipsum lorem lorem :</p>
+                <div class="payments-crt">
+                    <img src="/public/icons/amex_82052 2.png" alt="img amex">
+                    <img src="/public/icons/Visa_icon-icons 1.png" alt="img amex">
+                    <img src="/public/icons/Paypal-01_icon-icons 1.png" alt="img amex">
+                    <img src="/public/icons/mastercard_82049 1.png" alt="img amex">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER START HERE -->
+    <footer style="border: 1px solid black; padding: 50px;">
+        Footer
+    </footer>
+</body>
+</html>
