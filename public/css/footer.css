@@ -1,0 +1,81 @@
+/* ///////////////////FOOTER ////////////////////////// */
+
+.paiement img {
+    display: inline-block;
+    padding: 20px;
+    width: 110;
+    height: 80px;
+}
+
+.paiement .logo {
+    width: 100px;
+    height: 100px;
+}
+
+.paiement {
+    background: var(--color-black);
+    padding: 0 20px;
+}
+
+.footer {
+    background: var(--color-black);
+    padding: 30px;
+}
+
+.footer img {
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+}
+
+.bloc4 {
+    background: var(--color-black);
+    padding-bottom: 30px;
+    flex-direction: column;
+}
+
+.bloc4 button {
+    background: var(--color-black);
+    color: white;
+    border: 1px solid white;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+#email {
+    width: 250px;
+    min-height: 25px;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.bloc1,
+.bloc2,
+.bloc3 {
+    width: 33%;
+    min-height: 220px;
+}
+.footer li {
+    padding: 10px 0;
+}
+
+.newsletter p {
+    color: white;
+    margin-top: 15px;
+}
+
+.bloc3 img {
+    padding: 10px;
+}
+
+.bloc3 h2 {
+    text-align: center;
+}
+
+.reseau {
+    justify-content: space-around;
+}
+footer h2 {
+    color: var(--color-white);
+    text-align: start;
+}
