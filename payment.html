@@ -6,14 +6,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/public/css/payment.css">
+    <link rel="stylesheet" href="./public/css/header.css" />
+    <link rel="stylesheet" href="./public/css/footer.css">
     <title>Payment</title>
 </head>
 
 <body>
     <!-- HEADER START HERE -->
-    <header style="border: 1px solid black; padding: 50px;">
-        <nav>
-            Navbar
+    <header>
+        <nav class="flex">
+            <a href="">
+                <img class="display-no" src="./public/images/images/logo.png" alt="logo_FAH_blanc" />
+            </a>
+
+            <img class="burger" src="./public/icons/icons/hambergermenu.png" alt="" />
+
+            <div class="flex toto">
+                <div class="flex nav-liens display-no">
+                    <a href="#">HOMMES</a>
+                    <a href="#">FEMMES</a>
+                    <a href="#">ENFANTS</a>
+                </div>
+                <div class="flex test">
+                    <form class="flex">
+                        <input class="search visibility-none" type="text" name="" id="input-search" />
+                        <button class="search bg-bnt bg-bnt-black" id="bnt-search">
+                            <img id="search" class="search-black" src="./public/icons/searchblack.png" alt="" />
+                            <img class="search-white" src="./public/icons/icons/searchnormal.png" alt=""
+                                id="search-white" />
+                        </button>
+                    </form>
+
+                    <div class="flex">
+                        <a href="/">
+                            <img src="./public/icons/icons/favoris.png" class="favoris" alt="" />
+                        </a>
+                        <a href="/">
+                            <img src="./public/icons/icons/user.png" alt="icon_compte" />
+                        </a>
+                        <a href="./cart.html">
+                            <img class="panier" src="./public/icons/icons/panier.png" alt="icon_panier" />
+                        </a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -123,8 +159,71 @@
             </div>
     </section>
     <!-- FOOTER START HERE -->
-    <footer style="border: 1px solid black; padding: 50px;">
-        Footer
+    <footer>
+        <div class="paiement flex">
+
+            <div>
+                <img class="logo" src="./public/images/images/logo.png" alt="logo_FAH_blanc">
+            </div>
+
+            <div>
+                <img src="./public/images/images/visa-png 1.png" alt="carte_visa"></li>
+                <img src="./public/images/images/mastercard-png 1.png" alt="carte_mastercard">
+                <img src="./public/images/images/visa-carte-bleue-png 1.png" alt="carte_cb_visa">
+                <img src="./public/images/images/pay-pal-png 1.png" alt="paypal">
+            </div>
+        </div>
+
+        <section class="footer flex">
+
+            <div class="bloc1">
+                <h2>Pour mieux nous connaitre</h2>
+                <ul>
+                    <li><a href="#">A propos</a></li>
+                    <li><a href="#">Hommes</a></li>
+                    <li><a href="#">Femmes</a></li>
+                    <li><a href="#">Enfants</a></li>
+
+                </ul>
+            </div>
+
+            <div class="bloc2">
+                <h2>Lien utiles</h2>
+                <ul>
+                    <li><a href="#">RGPD & Cookies</a></li>
+                    <li><a href="#">CGV</a></li>
+                </ul>
+
+            </div>
+
+            <div class="bloc3">
+
+                <h2>Suivez-nous</h2>
+
+                <div class="reseau flex">
+                    <img src="./public/icons/icons/facebook-5-240.png" alt="icone_facebook">
+                    <img src="./public/icons/icons/instagram-15-240.png" alt="icone_facebook">
+                    <img src="./public/icons/icons/linkedin-5-240.png" alt="icone_facebook">
+                    <img src="./public/icons/icons/linkedin-5-240.png" alt="icone_facebook">
+                </div>
+            </div>
+
+        </section>
+
+        <div class="bloc4 flex column">
+            <h2>Abonnez-vous à notre newslettrer</h2>
+
+            <div class="newsletter">
+
+                <input type="email" id="email" name="email" value="email@email.com">
+                <button>Abonnez vous</button>
+                <p>
+                    En cliquant sur le bouton S’ABONNEZ,<br>vous acceptez la politique de confidentialité
+                    cookies
+                </p>
+
+            </div>
+        </div>
     </footer>
 
 </body>
