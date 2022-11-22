@@ -1,0 +1,119 @@
+.section-accueil {
+    background-image: url("../images/images/encart_hp_collabs.webp");
+    height: 733px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+.section-accueil > div {
+    width: 500px;
+    border: 1px solid black;
+    flex-direction: column;
+    gap: 3rem;
+    padding-bottom: 1rem;
+    background: rgb(46 45 46 / 34%);
+    border: 1px solid rgb(249 242 242 / 23%);
+}
+h1 {
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+.section-accueil p,
+h1 {
+    color: var(--color-white);
+    text-align: center;
+}
+
+.section-accueil p {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.liens-categories {
+    justify-content: space-around;
+    width: 100%;
+}
+.liens-categories a {
+    background: var(--color-white);
+    color: var(--color-black);
+    padding: 0.5rem 1.75rem;
+    border-radius: 6px;
+}
+/* main */
+main {
+    margin: 6rem 0;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* les nouveatées */
+.articles {
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.article-nomprix {
+    justify-content: space-around;
+}
+.article > div {
+    position: relative;
+}
+.article-favoris {
+    position: absolute;
+    top: 31rem;
+    right: 1rem;
+    width: 44px;
+}
+
+/* les promos */
+.promos {
+    /* margin-top: 6rem; */
+    background: #ffffff;
+    border: 1px solid #f4eeee;
+    width: 80vw;
+    margin: 6rem auto;
+    padding-top: 2rem;
+}
+.promos > div {
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+}
+.bnt-carousel {
+    transform: rotate(180deg);
+}
+.promos-carousel {
+    justify-content: center;
+    gap: 2rem;
+}
+main button {
+    border-radius: 50%;
+    padding: 5px 11px;
+    background: white;
+}
+.promos-produits-carousel {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.prix-promos {
+    color: var(--color-red);
+    font-weight: 600;
+}
+
+/* meadia */
+
+@media (max-width: 1060px) {
+    .promos-produits-carousel > img {
+        width: 200px;
+    }
+}
+@media (max-width: 800px) {
+    .img-first {
+        display: none;
+    }
+}
