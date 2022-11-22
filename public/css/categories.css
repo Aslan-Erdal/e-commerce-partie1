@@ -1,6 +1,7 @@
 .section-categories {
     background-image: url("../images/images/istockphoto-684771318-170667a.jpg");
     background-size: cover;
+    position: relative;
 }
 
 .section-categories > div {
@@ -49,4 +50,24 @@
 
 .categories-articles .article-favoris {
     top: 20rem;
+}
+.explore-offre {
+    position: absolute;
+    top: 86px;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100vw;
+    background: #525050;
+    padding: 1rem 0;
+}
+.explore-offre > div {
+    gap: 4rem;
+    border: 1px solid white;
+    padding: 1rem 1rem;
+    border-radius: 6px;
+}
+.explore-offre > p {
+    /* margin-bottom: 0; */
+    color: var(--color-white);
 }
