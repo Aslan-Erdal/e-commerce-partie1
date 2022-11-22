@@ -296,6 +296,10 @@ label {
     font-size: clamp(10px,5vw,26px);
     font-weight: 400;
 }
+
+.remove, .relou{
+    display: none;
+}
 /* //////////////////////@MEDIA QUERYS //////////////////// */
 
 @media (max-width: 1105px) {
@@ -335,14 +339,16 @@ label {
         font-size: 16px;
         padding: 20px;
         background: none;
+        color: white;
 
     }
 
-    .menu{
+    .menu {
         display: block;
     }
 
     .relou{
+        display: flex;
         flex-direction: row;
         gap: 50px;
     }
