@@ -315,6 +315,7 @@ label {
         display: none;
     }
 
+
     .paiement {
         display: flex;
         justify-content: space-between;
@@ -327,22 +328,16 @@ label {
         font-size: 16px;
         padding: 20px;
         background: none;
-<<<<<<< HEAD
         color: white;
 
-=======
->>>>>>> 7c469b9d45701bcdf091a645fab94565be7fcb9c
+
     }
 
     .menu {
         display: block;
     }
 
-<<<<<<< HEAD
-    .relou{
-=======
     .relou {
->>>>>>> 7c469b9d45701bcdf091a645fab94565be7fcb9c
         display: flex;
         flex-direction: row;
         gap: 50px;
