@@ -5,10 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Categories</title>
-        <link rel="stylesheet" href="./public/css/header.css">
-        <link rel="stylesheet" href="./public/css/footer.css">
-        <link rel="stylesheet" href="./public/css/accueil.css">
-        <link rel="stylesheet" href="./public/css/categories.css">
+        <link rel="stylesheet" href="./public/css/header.css" />
+        <link rel="stylesheet" href="./public/css/footer.css" />
+        <!-- <link rel="stylesheet" href="./public/css/accueil.css" /> -->
+        <link rel="stylesheet" href="./public/css/categories.css" />
     </head>
     <body>
         <header>
@@ -86,108 +86,202 @@
                 </div>
             </nav>
         </header>
-        <section class="section-accueil section-categories">
-            <div class="flex">
-                
-                    
-                    <p>Lorem ipsum, dolor sit amet 
-                        consectetur adipisicing elit. Ullam, illum?
-                    </p>
-                
-                <div class="liens-categories flex">
-                    <button class="bnt-categories">j'en profite 
-                        <img src="./public/icons/icons/fleche-categories.png" alt=""> 
-                    </button>
+        <section class="explore-offre flex">
+            <p>Explorez notre offre</p>
+            <div class="flex div-categories">
+                <a href="">Pantalon</a>
+                <a href="">T-shirt</a>
+                <a href="">Chaussures</a>
+                <a href="">Montres</a>
+            </div>
+        </section>
+        <section class="header-section">
+            <div class="container marg-header-section">
+                <div class="row">
+                    <div class="col-2 col-2-center">
+                        <h1>VIVE LES PROMOS !</h1>
 
+                        <p>
+                            VENEZ VITE DECOUVRIRE NOS PROMOTIONS SUR VOS MARQUES
+                            PREFEREES
+                        </p>
+                        <a href="">J'en profite &#8594;</a>
+                    </div>
+                    <div class="col-2">
+                        <img
+                            src="./public/images/accueil-removebg-preview.png"
+                            alt=""
+                        />
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="explore-offre flex">
-            <p>Explorez notre offre</p>
-            <div class="flex ">
-                <a href="">Catégorie1</a>
-                <a href="">Catégorie2</a>
-                <a href="">Catégorie3</a>
-                <a href="">Catégorie4</a>
+        <main class="flex">
+            <div class="container div-trie">
+                <section class="trie bg-white">
+                    <form action="" class="flex">
+                        <label for="pet-select">Trier par</label>
+
+                        <select id="pet-select">
+                            <option value="">Prix</option>
+                            <option value="dog">Taille</option>
+                        </select>
+                    </form>
+                </section>
             </div>
-        </section>
-        <main class="flex main-categories">
-            <section class="trie bg-white">
-                <form action="" class="flex">
-                    <label for="pet-select">Trier par</label>
-
-                    <select id="pet-select">
-                        <option value="">Prix</option>
-                        <option value="dog">Taille</option>
-                        
-                    </select>
-
-                </form>
-            </section>
-            <section class="nouveautes  categories-articles bg-white">
-                
-                <div class="articles flex">
-                    <div class="article">
-                        <div>
-                            <a href="./categorie.html">
-
-                                <img
-                                    class="article-img"
-                                    src="./public/images/images/pantalon_noir 1.png"
-                                    alt=""
-                                />
-                            </a>
-                            <img
-                                class="article-favoris "
-                                src="./public/icons/icons/favoris-noir.png"
-                                alt=""
-                            />
-                        </div>
-                        <div class="article-nomprix flex">
-                            <p>Pantalon</p>
-                            <p>Homme</p>
-                        </div>
-                    </div>
-                    <div class="article">
-                        <div>
+            <!--meilleurs produits  -->
+            <section class="featured-products">
+                <div class="container">
+                    <div class="row row-products-categories">
+                        <div class="col-4 bg-white">
                             <a href="">
-
                                 <img
-                                    class="article-img"
-                                    src="./public/images/images/pantalon_kaki 1.png"
+                                    src="./public/images/product-1.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="icon-favoris"
+                                    src="./public/icons/favoris-noir.png"
                                     alt=""
                                 />
                             </a>
-                            <img
-                                class="article-favoris"
-                                src="./public/icons/icons/favoris-noir.png"
-                                alt=""
-                            />
+                            <h3>T-shirt-Rouge</h3>
+                            <p>5000€</p>
                         </div>
-                        <div class="article-nomprix flex">
-                            <p>Nom</p>
-                            <p>Homme</p>
-                        </div>
-                    </div>
-                    <div class="article">
-                        <div>
+                        <div class="col-4 bg-white">
                             <a href="">
-
                                 <img
-                                    class="article-img"
-                                    src="./public/images/images/pantalon_marine 1.png"
+                                    src="./public/images/product-2.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="icon-favoris"
+                                    src="./public/icons/favoris-noir.png"
                                     alt=""
                                 />
                             </a>
-                            <img
-                                class="article-favoris"
-                                src="./public/icons/icons/favoris-noir.png"
-                                alt=""
-                            />
+                            <h3>Chaussure-noir</h3>
+                            <p>5000€</p>
                         </div>
-                        <div class="article-nomprix flex">
-                            <p>Nom</p>
-                            <p>Homme</p>
+                        <div class="col-4 bg-white">
+                            <a href="">
+                                <img
+                                    src="./public/images/product-3.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="icon-favoris"
+                                    src="./public/icons/favoris-noir.png"
+                                    alt=""
+                                />
+                            </a>
+                            <h3>Pantalon-noir</h3>
+                            <p>5000€</p>
+                        </div>
+                        <div class="col-4 bg-white">
+                            <a href="">
+                                <img
+                                    src="./public/images/product-4.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="icon-favoris"
+                                    src="./public/icons/favoris-noir.png"
+                                    alt=""
+                                />
+                            </a>
+                            <h3>T-shirt-Bleu</h3>
+                            <p>5000€</p>
+                        </div>
+                        <div class="col-4 bg-white">
+                            <a href="">
+                                <img
+                                    src="./public/images/product-5.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="icon-favoris"
+                                    src="./public/icons/favoris-noir.png"
+                                    alt=""
+                                />
+                            </a>
+                            <h3>Chaussur-Gris</h3>
+                            <p>5000€</p>
+                        </div>
+                        <div class="col-4 bg-white">
+                            <a href="">
+                                <img
+                                    src="./public/images/product-6.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="icon-favoris"
+                                    src="./public/icons/favoris-noir.png"
+                                    alt=""
+                                />
+                            </a>
+                            <h3>T-shirt-Noir</h3>
+                            <p>5000€</p>
+                        </div>
+                        <div class="col-4 bg-white">
+                            <a href="">
+                                <img
+                                    src="./public/images/product-7.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="icon-favoris"
+                                    src="./public/icons/favoris-noir.png"
+                                    alt=""
+                                />
+                            </a>
+                            <h3>T-shirt-Rouge</h3>
+                            <p>5000€</p>
+                        </div>
+                        <div class="col-4 bg-white">
+                            <a href="">
+                                <img
+                                    src="./public/images/product-8.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="icon-favoris"
+                                    src="./public/icons/favoris-noir.png"
+                                    alt=""
+                                />
+                            </a>
+                            <h3>Montre-Noir</h3>
+                            <p>5000€</p>
+                        </div>
+                        <div class="col-4 bg-white">
+                            <a href="">
+                                <img
+                                    src="./public/images/product-9.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="icon-favoris"
+                                    src="./public/icons/favoris-noir.png"
+                                    alt=""
+                                />
+                            </a>
+                            <h3>Pantalon-Noir</h3>
+                            <p>5000€</p>
+                        </div>
+                        <div class="col-4 bg-white">
+                            <a href="">
+                                <img
+                                    src="./public/images/product-10.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="icon-favoris"
+                                    src="./public/icons/favoris-noir.png"
+                                    alt=""
+                                />
+                            </a>
+                            <h3>Chaussure-Noir</h3>
+                            <p>5000€</p>
                         </div>
                     </div>
                 </div>
@@ -195,21 +289,35 @@
         </main>
         <footer>
             <div class="paiement flex">
-
                 <div>
-                    <img class="logo" src="./public/images/images/logo.png" alt="logo_FAH_blanc">
+                    <img
+                        class="logo"
+                        src="./public/images/images/logo.png"
+                        alt="logo_FAH_blanc"
+                    />
                 </div>
 
                 <div>
-                    <img src="./public/images/images/visa-png 1.png" alt="carte_visa"></li>
-                    <img src="./public/images/images/mastercard-png 1.png" alt="carte_mastercard">
-                    <img src="./public/images/images/visa-carte-bleue-png 1.png" alt="carte_cb_visa">
-                    <img src="./public/images/images/pay-pal-png 1.png" alt="paypal">
+                    <img
+                        src="./public/images/images/visa-png 1.png"
+                        alt="carte_visa"
+                    />
+                    <img
+                        src="./public/images/images/mastercard-png 1.png"
+                        alt="carte_mastercard"
+                    />
+                    <img
+                        src="./public/images/images/visa-carte-bleue-png 1.png"
+                        alt="carte_cb_visa"
+                    />
+                    <img
+                        src="./public/images/images/pay-pal-png 1.png"
+                        alt="paypal"
+                    />
                 </div>
             </div>
 
             <section class="footer flex">
-
                 <div class="bloc1">
                     <h2>Pour mieux nous connaitre</h2>
                     <ul>
@@ -217,7 +325,6 @@
                         <li><a href="#">Hommes</a></li>
                         <li><a href="#">Femmes</a></li>
                         <li><a href="#">Enfants</a></li>
-
                     </ul>
                 </div>
 
@@ -227,43 +334,49 @@
                         <li><a href="#">RGPD & Cookies</a></li>
                         <li><a href="#">CGV</a></li>
                     </ul>
-
                 </div>
 
                 <div class="bloc3">
-
                     <h2>Suivez-nous</h2>
 
                     <div class="reseau flex">
-                        <img src="./public/icons/icons/facebook-5-240.png" alt="icone_facebook">
-                        <img src="./public/icons/icons/instagram-15-240.png" alt="icone_facebook">
-                        <img src="./public/icons/icons/linkedin-5-240.png" alt="icone_facebook">
-                        <img src="./public/icons/icons/linkedin-5-240.png" alt="icone_facebook">
+                        <img
+                            src="./public/icons/icons/facebook-5-240.png"
+                            alt="icone_facebook"
+                        />
+                        <img
+                            src="./public/icons/icons/instagram-15-240.png"
+                            alt="icone_facebook"
+                        />
+                        <img
+                            src="./public/icons/icons/linkedin-5-240.png"
+                            alt="icone_facebook"
+                        />
+                        <img
+                            src="./public/icons/icons/linkedin-5-240.png"
+                            alt="icone_facebook"
+                        />
                     </div>
                 </div>
-
             </section>
 
             <div class="bloc4 flex column">
                 <h2>Abonnez-vous à notre newslettrer</h2>
 
                 <div class="newsletter">
-
-                    <input type="email" id="email" name="email" value="email@email.com">
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        value="email@email.com"
+                    />
                     <button>Abonnez vous</button>
-                        <p>
-                        En cliquant sur le bouton S’ABONNEZ,<br>vous acceptez la politique de confidentialité
-                        cookies
+                    <p>
+                        En cliquant sur le bouton S’ABONNEZ,<br />vous acceptez
+                        la politique de confidentialité cookies
                     </p>
-
                 </div>
-
-
             </div>
-
-
-
-
         </footer>
     </body>
 </html>
