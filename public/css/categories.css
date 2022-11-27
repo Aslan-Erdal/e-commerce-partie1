@@ -1,56 +1,34 @@
-.section-categories {
-    background-image: url("../images/images/istockphoto-684771318-170667a.jpg");
-    background-size: cover;
-    position: relative;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.section-categories > div {
-    padding-top: 1.5rem;
-    width: 374px;
+:root {
+    --color-green: #006637;
+    --color-white: #ffffff;
+    --color-background: #f5f5f7;
+    --color-black: #000000;
+    --color-grey: #919090;
+    --color-red: #ad130a;
 }
-.section-categories .bnt-categories {
-    background: var(--color-red);
-    color: white;
-    padding: 1rem 1rem;
-    font-size: 1.25rem;
-    border: none;
-    border-radius: 6px;
+
+.container {
+    max-width: 1200px;
+
+    padding-left: 25px;
+    padding-right: 25px;
 }
-.bg-white {
-    background: var(--color-white);
-}
-.main-categories {
+
+main {
+    margin: 80px 0 80px;
+    gap: 40px;
     flex-direction: column;
-    gap: 3rem;
 }
-
-.section-categories .bnt-categories img {
-    width: 26px;
+.div-trie {
+    width: 88%;
 }
-.trie {
-    width: 80vw;
-    padding: 1rem 0;
-}
-.trie form {
-    justify-content: center;
-    gap: 1rem;
-}
-#pet-select {
-    width: 229px;
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
-}
-.categories-articles {
-    width: 80vw;
-    padding: 2rem 0;
-}
-.categories-articles .article-img {
-    width: 250px;
-}
-
-.categories-articles .article-favoris {
-    top: 20rem;
-}
+/* liens catégories */
 .explore-offre {
     position: absolute;
     top: 86px;
@@ -61,13 +39,161 @@
     background: #525050;
     padding: 1rem 0;
 }
-.explore-offre > div {
-    gap: 4rem;
+.explore-offre p {
+    color: white;
+}
+.flex {
+    display: flex;
+
+    align-items: center;
+}
+.div-categories {
+    flex-basis: 45vw;
+    justify-content: space-between;
     border: 1px solid white;
-    padding: 1rem 1rem;
+    padding: 0.75rem;
     border-radius: 6px;
 }
-.explore-offre > p {
-    /* margin-bottom: 0; */
-    color: var(--color-white);
+/* section 1 */
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.row-products-categories {
+    justify-content: center;
+    gap: 40px;
+}
+.col-2 {
+    flex-basis: 50%;
+    min-height: 300px;
+    color: white;
+}
+.col-2 img {
+    width: 109%;
+    padding: 36px 0;
+    transform: translateX(6vw);
+}
+
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.col-2 a {
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: var(--color-red);
+    color: #fff;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 25px;
+}
+.col-2 p {
+    line-height: 31px;
+}
+.col-2 a:hover {
+    background: #16a7b4;
+}
+
+.header-section {
+    margin-top: 76px;
+    background: linear-gradient(#f5f5f7, #000000);
+}
+.marg-header-section {
+    margin: 20px auto;
+}
+
+/* section trier categories */
+.trie {
+    padding: 18px 0;
+}
+.trie form {
+    justify-content: center;
+    gap: 1rem;
+}
+.trie label {
+    font-size: 20px;
+    font-weight: 400;
+}
+#pet-select {
+    flex-basis: 30vw;
+    padding: 0.5rem;
+    border-radius: 6px;
+    text-align: center;
+}
+.bg-white {
+    background-color: white;
+}
+/* section des meilleur produits */
+.col-4 {
+    flex-basis: 22%;
+    min-width: 200px;
+    padding: 15px;
+}
+.col-4 img {
+    width: 100%;
+}
+.col-4 h3,
+.col-4 p {
+    text-align: center;
+}
+
+.icon-favoris {
+    width: 28px !important;
+    position: absolute;
+    top: -15px;
+    left: 82%;
+}
+.col-4 a {
+    position: relative;
+}
+
+/* media */
+@media (max-width: 884px) {
+    .col-2 h1 {
+        font-size: 31px;
+        line-height: 60px;
+        margin: 25px 0;
+    }
+    .div-categories {
+        flex-basis: 65vw;
+    }
+    #pet-select {
+        flex-basis: 40vw;
+    }
+}
+
+@media (max-width: 680px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+    .col-2-center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .col-2-center a {
+        margin-bottom: 16px;
+    }
+    .col-2 h1 {
+        text-align: center;
+    }
+    #pet-select {
+        flex-basis: 47vw;
+    }
+}
+
+@media (max-width: 550px) {
+    .explore-offre {
+        display: none;
+    }
+    .header-section {
+        margin-top: -22px;
+    }
+    main {
+        margin: 40px 0 40px;
+    }
 }
