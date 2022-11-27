@@ -7,9 +7,11 @@
         <title>Document</title>
         <link rel="stylesheet" href="./public/css/header.css" />
         <link rel="stylesheet" href="./public/css/accueil.css" />
-        <link rel="stylesheet" href="./public/css/footer.css">
-        <link rel="stylesheet" href="./public/css/cart.css">
+        <link rel="stylesheet" href="./public/css/footer.css" />
+        <link rel="stylesheet" href="./public/css/cart.css" />
+        <link rel="stylesheet" href="./public/css/categories.css" />
         <script src="./public/js/header.js" defer></script>
+        <script src="./public/js/caroussel.js" defer></script>
     </head>
     <body>
         <header>
@@ -101,188 +103,435 @@
             </div>
         </section>
         <main>
-            <section class="nouveautes">
-                <h2>Les nouveautées</h2>
-                <div class="articles flex">
-                    <div class="article">
-                        <div>
-                            <img
-                                class="article-img"
-                                src="./public/images/images/pantalon_noir 1.png"
-                                alt=""
-                            />
-                            <img
-                                class="article-favoris"
-                                src="./public/icons/icons/favoris-noir.png"
-                                alt=""
-                            />
+            <section class="featured-products">
+                <div class="container">
+                    <h2>Les nouvautées</h2>
+                    <div class="row row-products-categories">
+                        <div class="col-4 bg-white">
+                            <a href="">
+                                <img
+                                    src="./public/images/product-1.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="icon-favoris"
+                                    src="./public/icons/favoris-noir.png"
+                                    alt=""
+                                />
+                            </a>
+                            <h3>T-shirt-Rouge</h3>
+                            <p>5000€</p>
                         </div>
-                        <div class="article-nomprix flex">
-                            <p>Nom</p>
-                            <p>Homme</p>
+                        <div class="col-4 bg-white">
+                            <a href="">
+                                <img
+                                    src="./public/images/product-2.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="icon-favoris"
+                                    src="./public/icons/favoris-noir.png"
+                                    alt=""
+                                />
+                            </a>
+                            <h3>Chaussure-noir</h3>
+                            <p>5000€</p>
+                        </div>
+                        <div class="col-4 bg-white">
+                            <a href="">
+                                <img
+                                    src="./public/images/product-3.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="icon-favoris"
+                                    src="./public/icons/favoris-noir.png"
+                                    alt=""
+                                />
+                            </a>
+                            <h3>Pantalon-noir</h3>
+                            <p>5000€</p>
+                        </div>
+                        <div class="col-4 bg-white">
+                            <a href="">
+                                <img
+                                    src="./public/images/product-4.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="icon-favoris"
+                                    src="./public/icons/favoris-noir.png"
+                                    alt=""
+                                />
+                            </a>
+                            <h3>T-shirt-Bleu</h3>
+                            <p>5000€</p>
+                        </div>
+                        <div class="col-4 bg-white">
+                            <a href="">
+                                <img
+                                    src="./public/images/product-5.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="icon-favoris"
+                                    src="./public/icons/favoris-noir.png"
+                                    alt=""
+                                />
+                            </a>
+                            <h3>Chaussur-Gris</h3>
+                            <p>5000€</p>
+                        </div>
+                        <div class="col-4 bg-white">
+                            <a href="">
+                                <img
+                                    src="./public/images/product-6.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="icon-favoris"
+                                    src="./public/icons/favoris-noir.png"
+                                    alt=""
+                                />
+                            </a>
+                            <h3>T-shirt-Noir</h3>
+                            <p>5000€</p>
+                        </div>
+                        <div class="col-4 bg-white">
+                            <a href="">
+                                <img
+                                    src="./public/images/product-7.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="icon-favoris"
+                                    src="./public/icons/favoris-noir.png"
+                                    alt=""
+                                />
+                            </a>
+                            <h3>T-shirt-Rouge</h3>
+                            <p>5000€</p>
+                        </div>
+                        <div class="col-4 bg-white">
+                            <a href="">
+                                <img
+                                    src="./public/images/product-8.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="icon-favoris"
+                                    src="./public/icons/favoris-noir.png"
+                                    alt=""
+                                />
+                            </a>
+                            <h3>Montre-Noir</h3>
+                            <p>5000€</p>
+                        </div>
+                        <div class="col-4 bg-white">
+                            <a href="">
+                                <img
+                                    src="./public/images/product-9.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="icon-favoris"
+                                    src="./public/icons/favoris-noir.png"
+                                    alt=""
+                                />
+                            </a>
+                            <h3>Pantalon-Noir</h3>
+                            <p>5000€</p>
+                        </div>
+                        <div class="col-4 bg-white">
+                            <a href="">
+                                <img
+                                    src="./public/images/product-10.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="icon-favoris"
+                                    src="./public/icons/favoris-noir.png"
+                                    alt=""
+                                />
+                            </a>
+                            <h3>Chaussure-Noir</h3>
+                            <p>5000€</p>
                         </div>
                     </div>
-                    <div class="article">
-                        <div>
-                            <img
-                                class="article-img"
-                                src="./public/images/images/pantalon_kaki 1.png"
-                                alt=""
-                            />
-                            <img
-                                class="article-favoris"
-                                src="./public/icons/icons/favoris-noir.png"
-                                alt=""
-                            />
-                        </div>
-                        <div class="article-nomprix flex">
-                            <p>Nom</p>
-                            <p>Homme</p>
-                        </div>
-                    </div>
-                    <div class="article">
-                        <div>
-                            <img
-                                class="article-img"
-                                src="./public/images/images/pantalon_marine 1.png"
-                                alt=""
-                            />
-                            <img
-                                class="article-favoris"
-                                src="./public/icons/icons/favoris-noir.png"
-                                alt=""
-                            />
-                        </div>
-                        <div class="article-nomprix flex">
-                            <p>Nom</p>
-                            <p>Homme</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="promos">
-                <h2>Les promos</h2>
-                <div class="flex">
-                    <button>
-                        <img src="./public/icons/icons/carousel.png" alt="" />
-                    </button>
-                    <div class="promos-carousel flex">
-                        <div class="promos-produits-carousel img-first flex">
-                            <img
-                                src="./public/images/images/pantalon_bleu_ciel _mobile.png"
-                                alt=""
-                            />
-                            <p>Nom</p>
-                            <p>Catégorie</p>
-                            <p>
-                                <span class="prix-promos"> 23€</span>
-                                <del> 40€</del>
-                            </p>
-                        </div>
-                        <div class="promos-produits-carousel flex">
-                            <img
-                                src="./public/images/images/pantalon_bleu_ciel _mobile.png"
-                                alt=""
-                            />
-                            <p>Nom</p>
-                            <p>Catégorie</p>
-                            <p>
-                                <span class="prix-promos"> 23€ </span>
-                                <del> 40€</del>
-                            </p>
-                        </div>
-                        <div class="promos-produits-carousel flex">
-                            <img
-                                src="./public/images/images/pantalon_bleu_ciel _mobile.png"
-                                alt=""
-                            />
-                            <p>Nom</p>
-                            <p>Catégorie</p>
-                            <p>
-                                <span class="prix-promos">23€</span>
-                                <del> 40€</del>
-                            </p>
-                        </div>
-                    </div>
-
-                    <button class="bnt-carousel">
-                        <img src="./public/icons/icons/carousel.png" alt="" />
-                    </button>
                 </div>
             </section>
         </main>
-
-    <footer>
-        <div class="paiement flex">
-
-            <div>
-                <img class="logo" src="./public/images/images/logo.png" alt="logo_FAH_blanc">
+        <section class="product">
+            <h2 class="product-category">Les promos</h2>
+            <button class="pre-btn">
+                <img src="./public/images/arrow.png" alt="" />
+            </button>
+            <button class="nxt-btn">
+                <img src="./public/images/arrow.png" alt="" />
+            </button>
+            <div class="product-container">
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">-50% </span>
+                        <img
+                            src="./public/images/product-1.jpg"
+                            class="product-thumb"
+                            alt=""
+                        />
+                        <button class="card-btn">ajouter au panier</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">homme</h2>
+                        <p class="product-short-description">t-shirt-rouge</p>
+                        <span class="price">20€</span
+                        ><span class="actual-price">40€</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">-50%</span>
+                        <img
+                            src="./public/images/product-10.jpg"
+                            class="product-thumb"
+                            alt=""
+                        />
+                        <button class="card-btn">ajouter au panier</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">homme</h2>
+                        <p class="product-short-description">chaussure-noir</p>
+                        <span class="price">20€</span
+                        ><span class="actual-price">40€</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">-50% </span>
+                        <img
+                            src="./public/images/product-2.jpg"
+                            class="product-thumb"
+                            alt=""
+                        />
+                        <button class="card-btn">ajouter au panier</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">homme</h2>
+                        <p class="product-short-description">chaussure-noir</p>
+                        <span class="price">20€</span
+                        ><span class="actual-price">40€</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">-50%</span>
+                        <img
+                            src="./public/images/product-9.jpg"
+                            class="product-thumb"
+                            alt=""
+                        />
+                        <button class="card-btn">ajouter au panier</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">homme</h2>
+                        <p class="product-short-description">pantalon-noir</p>
+                        <span class="price">20€</span
+                        ><span class="actual-price">40€</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">-50%</span>
+                        <img
+                            src="./public/images/product-7.jpg"
+                            class="product-thumb"
+                            alt=""
+                        />
+                        <button class="card-btn">ajouter au panier</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">homme</h2>
+                        <p class="product-short-description">chaussette</p>
+                        <span class="price">20€</span
+                        ><span class="actual-price">40€</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">-50%</span>
+                        <img
+                            src="./public/images/product-5.jpg"
+                            class="product-thumb"
+                            alt=""
+                        />
+                        <button class="card-btn">ajouter au panier</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">homme</h2>
+                        <p class="product-short-description">chaussure-gris</p>
+                        <span class="price">20€</span
+                        ><span class="actual-price">40€</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">-50%</span>
+                        <img
+                            src="./public/images/product-6.jpg"
+                            class="product-thumb"
+                            alt=""
+                        />
+                        <button class="card-btn">ajouter au panier</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">homme</h2>
+                        <p class="product-short-description">t-shirts-noir</p>
+                        <span class="price">20€</span
+                        ><span class="actual-price">40€</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">-50%</span>
+                        <img
+                            src="./public/images/product-7.jpg"
+                            class="product-thumb"
+                            alt=""
+                        />
+                        <button class="card-btn">ajouter au panier</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">homme</h2>
+                        <p class="product-short-description">chaussette</p>
+                        <span class="price">20€</span
+                        ><span class="actual-price">40€</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">-50%</span>
+                        <img
+                            src="./public/images/product-8.jpg"
+                            class="product-thumb"
+                            alt=""
+                        />
+                        <button class="card-btn">ajouter au panier</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">homme</h2>
+                        <p class="product-short-description">Montre-Noir</p>
+                        <span class="price">20€</span
+                        ><span class="actual-price">40€</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">-50%</span>
+                        <img
+                            src="./public/images/product-9.jpg"
+                            class="product-thumb"
+                            alt=""
+                        />
+                        <button class="card-btn">ajouter au panier</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">homme</h2>
+                        <p class="product-short-description">pantalon-noir</p>
+                        <span class="price">20€</span
+                        ><span class="actual-price">40€</span>
+                    </div>
+                </div>
             </div>
+        </section>
+        <footer>
+            <div class="paiement flex">
+                <div>
+                    <img
+                        class="logo"
+                        src="./public/images/images/logo.png"
+                        alt="logo_FAH_blanc"
+                    />
+                </div>
 
-            <div>
-                <img src="./public/images/images/visa-png 1.png" alt="carte_visa"></li>
-                <img src="./public/images/images/mastercard-png 1.png" alt="carte_mastercard">
-                <img src="./public/images/images/visa-carte-bleue-png 1.png" alt="carte_cb_visa">
-                <img src="./public/images/images/pay-pal-png 1.png" alt="paypal">
-            </div>
-        </div>
-
-        <section class="footer flex">
-
-            <div class="bloc1">
-                <h2>Pour mieux nous connaitre</h2>
-                <ul>
-                    <li><a href="#">A propos</a></li>
-                    <li><a href="#">Hommes</a></li>
-                    <li><a href="#">Femmes</a></li>
-                    <li><a href="#">Enfants</a></li>
-
-                </ul>
-            </div>
-
-            <div class="bloc2">
-                <h2>Lien utiles</h2>
-                <ul>
-                    <li><a href="#">RGPD & Cookies</a></li>
-                    <li><a href="#">CGV</a></li>
-                </ul>
-
-            </div>
-
-            <div class="bloc3">
-
-                <h2>Suivez-nous</h2>
-
-                <div class="reseau flex">
-                    <img src="./public/icons/icons/facebook-5-240.png" alt="icone_facebook">
-                    <img src="./public/icons/icons/instagram-15-240.png" alt="icone_facebook">
-                    <img src="./public/icons/icons/linkedin-5-240.png" alt="icone_facebook">
-                    <img src="./public/icons/icons/linkedin-5-240.png" alt="icone_facebook">
+                <div>
+                    <img
+                        src="./public/images/images/visa-png 1.png"
+                        alt="carte_visa"
+                    />
+                    <img
+                        src="./public/images/images/mastercard-png 1.png"
+                        alt="carte_mastercard"
+                    />
+                    <img
+                        src="./public/images/images/visa-carte-bleue-png 1.png"
+                        alt="carte_cb_visa"
+                    />
+                    <img
+                        src="./public/images/images/pay-pal-png 1.png"
+                        alt="paypal"
+                    />
                 </div>
             </div>
 
-        </section>
+            <section class="footer flex">
+                <div class="bloc1">
+                    <h2>Pour mieux nous connaitre</h2>
+                    <ul>
+                        <li><a href="#">A propos</a></li>
+                        <li><a href="#">Hommes</a></li>
+                        <li><a href="#">Femmes</a></li>
+                        <li><a href="#">Enfants</a></li>
+                    </ul>
+                </div>
 
-        <div class="bloc4 flex column">
-            <h2>Abonnez-vous à notre newslettrer</h2>
+                <div class="bloc2">
+                    <h2>Lien utiles</h2>
+                    <ul>
+                        <li><a href="#">RGPD & Cookies</a></li>
+                        <li><a href="#">CGV</a></li>
+                    </ul>
+                </div>
 
-            <div class="newsletter">
+                <div class="bloc3">
+                    <h2>Suivez-nous</h2>
 
-                <input type="email" id="email" name="email" value="email@email.com">
-                <button>Abonnez vous</button>
+                    <div class="reseau flex">
+                        <img
+                            src="./public/icons/icons/facebook-5-240.png"
+                            alt="icone_facebook"
+                        />
+                        <img
+                            src="./public/icons/icons/instagram-15-240.png"
+                            alt="icone_facebook"
+                        />
+                        <img
+                            src="./public/icons/icons/linkedin-5-240.png"
+                            alt="icone_facebook"
+                        />
+                        <img
+                            src="./public/icons/icons/linkedin-5-240.png"
+                            alt="icone_facebook"
+                        />
+                    </div>
+                </div>
+            </section>
+
+            <div class="bloc4 flex column">
+                <h2>Abonnez-vous à notre newslettrer</h2>
+
+                <div class="newsletter">
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        value="email@email.com"
+                    />
+                    <button>Abonnez vous</button>
                     <p>
-                    En cliquant sur le bouton S’ABONNEZ,<br>vous acceptez la politique de confidentialité
-                    cookies
-                </p>
-
+                        En cliquant sur le bouton S’ABONNEZ,<br />vous acceptez
+                        la politique de confidentialité cookies
+                    </p>
+                </div>
             </div>
-
-
-        </div>
-
-
-
-
-    </footer>
+        </footer>
     </body>
 </html>
