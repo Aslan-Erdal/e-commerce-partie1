@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="/public/css/cart.css" />
         <link rel="stylesheet" href="./public/css/header.css" />
-        <link rel="stylesheet" href="./public/css/footer.css">
+        <link rel="stylesheet" href="./public/css/footer.css" />
         <title>Panier</title>
     </head>
 
@@ -14,7 +14,7 @@
         <!-- HEADER START HERE -->
         <header>
             <nav class="flex">
-                <a href="./index.html" class="display-no" >
+                <a href="./index.html" class="display-no">
                     <img
                         class="display-no"
                         src="./public/images/images/logo.png"
@@ -141,7 +141,9 @@
                         <option value="point relais">point relais</option>
                         <option value="le jour meme">le jour meme</option>
                     </select>
-                    <a href="./payment.html"><input type="button" value="Paiement"  /></a>
+                    <a href="./payment.html"
+                        ><input type="button" value="Paiement"
+                    /></a>
                 </form>
                 <div>
                     <p>Jeans lorem ipsum lorem lorem :</p>
@@ -169,21 +171,45 @@
         <!-- FOOTER START HERE -->
         <footer>
             <div class="paiement flex">
-    
-                <div>
-                    <img class="logo" src="./public/images/images/logo.png" alt="logo_FAH_blanc">
+                <div class="remove column">
+                    <p>@2022 F.A.H</p>
+                    <a href="#">Coordonnées</a>
+                    <!-- texte footer responsive  -->
                 </div>
-    
+
                 <div>
-                    <img src="./public/images/images/visa-png 1.png" alt="carte_visa"></li>
-                    <img src="./public/images/images/mastercard-png 1.png" alt="carte_mastercard">
-                    <img src="./public/images/images/visa-carte-bleue-png 1.png" alt="carte_cb_visa">
-                    <img src="./public/images/images/pay-pal-png 1.png" alt="paypal">
+                    <img
+                        class="logo"
+                        src="public/images/img/logo_FAH_blanc_mini.png"
+                        alt="logo_FAH_blanc"
+                    />
+                </div>
+                <div class="remove column">
+                    <a href="#">Confidentialité et cookies</a>
+                    <a href="#">Conditions générales</a>
+                </div>
+
+                <div class="banque">
+                    <img
+                        src="public/images/img/visa-png 1.png"
+                        alt="carte_visa"
+                    />
+                    <img
+                        src="public/images/img/mastercard-png 1.png"
+                        alt="carte_mastercard"
+                    />
+                    <img
+                        src="public/images/img/visa-carte-bleue-png 1.png"
+                        alt="carte_cb_visa"
+                    />
+                    <img
+                        src="public/images/img/pay-pal-png 1.png"
+                        alt="paypal"
+                    />
                 </div>
             </div>
-    
+
             <section class="footer flex">
-    
                 <div class="bloc1">
                     <h2>Pour mieux nous connaitre</h2>
                     <ul>
@@ -191,45 +217,60 @@
                         <li><a href="#">Hommes</a></li>
                         <li><a href="#">Femmes</a></li>
                         <li><a href="#">Enfants</a></li>
-    
                     </ul>
                 </div>
-    
+
                 <div class="bloc2">
                     <h2>Lien utiles</h2>
                     <ul>
                         <li><a href="#">RGPD & Cookies</a></li>
                         <li><a href="#">CGV</a></li>
                     </ul>
-    
                 </div>
-    
+
                 <div class="bloc3">
-    
                     <h2>Suivez-nous</h2>
-    
+
                     <div class="reseau flex">
-                        <img src="./public/icons/icons/facebook-5-240.png" alt="icone_facebook">
-                        <img src="./public/icons/icons/instagram-15-240.png" alt="icone_facebook">
-                        <img src="./public/icons/icons/linkedin-5-240.png" alt="icone_facebook">
-                        <img src="./public/icons/icons/linkedin-5-240.png" alt="icone_facebook">
+                        <a href="#"
+                            ><img
+                                src="public/images/img/facebook-5-240.png"
+                                alt="icone_facebook"
+                        /></a>
+                        <a href="#"
+                            ><img
+                                src="public/images/img/instagram-15-240.png"
+                                alt="icone_facebook"
+                        /></a>
+                        <a href="#"
+                            ><img
+                                src="public/images/img/linkedin-5-240.png"
+                                alt="icone_facebook"
+                        /></a>
+                        <a href="#"
+                            ><img
+                                src="public/images/img/twitter-5-240.png"
+                                alt="icone_facebook"
+                        /></a>
                     </div>
                 </div>
-    
             </section>
-    
+
             <div class="bloc4 flex column">
                 <h2>Abonnez-vous à notre newslettrer</h2>
-    
+
                 <div class="newsletter">
-    
-                    <input type="email" id="email" name="email" value="email@email.com">
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="monemail@email.com"
+                    />
                     <button>Abonnez vous</button>
                     <p>
-                        En cliquant sur le bouton S’ABONNEZ,<br>vous acceptez la politique de confidentialité
-                        cookies
+                        En cliquant sur le bouton S’ABONNEZ,<br />vous acceptez
+                        la politique de confidentialité cookies
                     </p>
-    
                 </div>
             </div>
         </footer>

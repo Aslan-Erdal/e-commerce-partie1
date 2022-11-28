@@ -1,18 +1,18 @@
 /* ///////////////////FOOTER ////////////////////////// */
 
-.paiement img {
+footer .paiement img {
     display: inline-block;
     padding: 20px;
     width: 110;
     height: 80px;
 }
 
-.paiement .logo {
-    width: 100px;
-    height: 100px;
+footer .paiement .logo {
+    width: 120px;
+    height: 120px;
 }
 
-.paiement {
+footer .paiement {
     background: var(--color-black);
     padding: 0 20px;
 }
@@ -28,13 +28,14 @@
     height: 65px;
 }
 
-.bloc4 {
+footer .bloc4 {
     background: var(--color-black);
     padding-bottom: 30px;
     flex-direction: column;
+    gap: 15px;
 }
 
-.bloc4 button {
+footer .bloc4 button {
     background: var(--color-black);
     color: white;
     border: 1px solid white;
@@ -42,16 +43,15 @@
     border-radius: 5px;
 }
 
-#email {
+footer #email {
     width: 250px;
     min-height: 25px;
     border-radius: 5px;
-    padding: 8px;
 }
 
-.bloc1,
-.bloc2,
-.bloc3 {
+footer .bloc1,
+footer .bloc2,
+footer .bloc3 {
     width: 33%;
     min-height: 220px;
 }
@@ -59,23 +59,68 @@
     padding: 10px 0;
 }
 
-.newsletter p {
+footer .newsletter p {
     color: white;
     margin-top: 15px;
 }
 
-.bloc3 img {
+footer .bloc3 img {
     padding: 10px;
 }
 
-.bloc3 h2 {
+footer .bloc3 h2 {
     text-align: center;
 }
 
-.reseau {
+footer .reseau {
     justify-content: space-around;
 }
+footer .newsletter ::placeholder {
+    padding: 5px;
+}
+
+footer .remove {
+    display: none;
+    color: white;
+}
+
 footer h2 {
-    color: var(--color-white);
-    text-align: start;
+    color: white;
+}
+@media (max-width: 980px) {
+    .footer,
+    footer .bloc1,
+    footer .bloc2,
+    footer .bloc3,
+    footer .bloc4,
+    footer .banque,
+    footer .remove2,
+    footer .search {
+        display: none !important;
+    }
+
+    footer .paiement {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer .remove {
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        padding: 20px;
+        background: none;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    footer .menu {
+        display: block;
+    }
+
+    footer .relou {
+        flex-direction: row;
+        gap: 50px;
+    }
 }

@@ -139,6 +139,9 @@ main {
 .col-4 p {
     text-align: center;
 }
+.col-4 h3 {
+    padding-top: 1rem;
+}
 
 .icon-favoris {
     width: 28px !important;

@@ -282,7 +282,8 @@ label {
     font-weight: 400;
 }
 
-.remove, .relou{
+.remove,
+.relou {
     display: none;
 }
 /* //////////////////////@MEDIA QUERYS //////////////////// */
@@ -315,7 +316,6 @@ label {
         display: none;
     }
 
-
     .paiement {
         display: flex;
         justify-content: space-between;
@@ -329,8 +329,7 @@ label {
         padding: 20px;
         background: none;
         color: white;
-
-
+        gap: 15px;
     }
 
     .menu {
