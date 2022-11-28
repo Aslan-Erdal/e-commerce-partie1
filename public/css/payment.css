@@ -33,6 +33,8 @@ label {
 /* CSS PAYMENT BOX */
 .payment-container-pyt {
     width: min(1440px, 100%);
+    margin-top: 50px;
+    margin-bottom: 50px;
     gap: 50px;
     justify-content: center;
     align-items: center;
