@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
 
 * {
     box-sizing: border-box;
@@ -7,15 +7,15 @@
 }
 
 body {
-    font-family: 'League Spartan';
+    font-family: "League Spartan";
     background-color: #f5f5f7;
 }
 
 p,
 label,
-input[type=text],
-input[type=button],
-input[type=submit] {
+input[type="text"],
+input[type="button"],
+input[type="submit"] {
     font-size: clamp(14px, 5vh, 18px);
     font-weight: 300;
 }
@@ -27,7 +27,7 @@ input[type=submit] {
 
 p,
 label {
-    font-size: clamp(14px, 5vh, 18px)
+    font-size: clamp(14px, 5vh, 18px);
 }
 
 /* CSS PAYMENT BOX */
@@ -80,27 +80,28 @@ h3 {
     padding: 29px 0 29px 32px;
 }
 
-.promo-payment-pyt form label input[type=text] {
+.promo-payment-pyt form label input[type="text"] {
     width: min(255px, 100%);
     padding: 10px;
-    border: .5px solid black;
+    border: 0.5px solid black;
 }
 
-.promo-payment-pyt form label input[type=button] {
+.promo-payment-pyt form label input[type="button"] {
     width: min(153px, 100%);
     padding: 10px;
-    border: .5px solid black;
-    background-color: #231F20;
+    border: 0.5px solid black;
+    background-color: #231f20;
     color: #ffffff;
 }
 
-.promo-payment-pyt form label input[type=button]:hover, .form-card-infos-pyt input[type=submit]:hover {
+.promo-payment-pyt form label input[type="button"]:hover,
+.form-card-infos-pyt input[type="submit"]:hover {
     background-color: #3b3639;
-    transition: all .3s;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -ms-transition: all .3s;
-    -o-transition: all .3s;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
 }
 
 /* PAYMENT ADDRESS CSS */
@@ -126,7 +127,7 @@ h3 {
 .addr-livraison-payment-pyt form {
     flex-direction: column;
     justify-content: space-around;
-    height: 630px
+    height: 630px;
 }
 
 .addr-livraison-payment-pyt .form-box-payment-pyt {
@@ -134,26 +135,26 @@ h3 {
     gap: 5px;
 }
 
-.form-box-payment-pyt input[type=text],
-.addr-livraison-payment-pyt form input[type=submit] {
+.form-box-payment-pyt input[type="text"],
+.addr-livraison-payment-pyt form input[type="submit"] {
     width: min(460px, 100%);
     padding: 10px 0;
 }
 
-.addr-livraison-payment-pyt form input[type=submit] {
-    background-color: #231F20;
+.addr-livraison-payment-pyt form input[type="submit"] {
+    background-color: #231f20;
     color: #ffffff;
     border: none;
     padding: 12px 0;
 }
 
-.addr-livraison-payment-pyt form input[type=submit]:hover {
+.addr-livraison-payment-pyt form input[type="submit"]:hover {
     background-color: #3b3639;
-    transition: all .5s;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -ms-transition: all .5s;
-    -o-transition: all .5s;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
 /* CSS BOX ARTICLE */
@@ -175,14 +176,14 @@ h3 {
     font-weight: 400;
 }
 
-.box-article-payment-pyt h3 span{
+.box-article-payment-pyt h3 span {
     margin-left: 100px;
 }
 
 .article-payment-pyt {
- margin: 38px 0;
- justify-content: space-between;
- align-items: center;
+    margin: 38px 0;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .article-textbox-pyt {
@@ -200,9 +201,10 @@ h3 {
     height: 430px;
     background-color: #ffffff;
 }
-.box-article-payment-pyt h2, .article-payment-pyt h3, .payment-box-pyt h2 {
+.box-article-payment-pyt h2,
+.article-payment-pyt h3,
+.payment-box-pyt h2 {
     font-weight: 400;
-
 }
 
 /* CSS BOX PAYMENT CB */
@@ -216,17 +218,17 @@ h3 {
     justify-content: space-between;
 }
 
-.form-card-infos-pyt input[type=submit] {
+.form-card-infos-pyt input[type="submit"] {
     width: min(434px, 100%);
     padding: 10px;
-    border: .5px solid black;
-    background-color: #231F20;
+    border: 0.5px solid black;
+    background-color: #231f20;
     color: #ffffff;
 }
 
 .form-card-infos-pyt .month-year-pyt select {
     background-color: #ffffff;
-    border: .5px solid black;
+    border: 0.5px solid black;
     width: min(205px, 100%);
     padding: 14px;
     font-size: clamp(14px, 5vh, 16px);
@@ -236,12 +238,11 @@ h3 {
     justify-content: space-between;
 }
 
-
 @media (max-width: 950px) {
-    body {
+    /* body {
         padding: 0 16px;
-    }
-    
+    } */
+
     .payment-container-pyt {
         flex-direction: column;
         margin: 0 auto;
@@ -264,15 +265,12 @@ h3 {
         min-width: 100%;
         height: 300px;
     }
-
 }
 
-@media (max-width: 450px) {
+/* @media (max-width: 450px) {
 
     body {
         padding: 0 16px;
     }
 
-}
-
-
+} */

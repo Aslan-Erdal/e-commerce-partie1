@@ -7,8 +7,8 @@
         <title>Categories</title>
         <link rel="stylesheet" href="./public/css/header.css" />
         <link rel="stylesheet" href="./public/css/footer.css" />
-        <!-- <link rel="stylesheet" href="./public/css/accueil.css" /> -->
         <link rel="stylesheet" href="./public/css/categories.css" />
+        <script src="./public/js/header.js"></script>
     </head>
     <body>
         <header>
@@ -304,29 +304,39 @@
         </main>
         <footer>
             <div class="paiement flex">
-                <div>
-                    <img
-                        class="logo"
-                        src="./public/images/images/logo.png"
-                        alt="logo_FAH_blanc"
-                    />
+                <div class="remove column">
+                    <p>@2022 F.A.H</p>
+                    <a href="#">Coordonnées</a>
+                    <!-- texte footer responsive  -->
                 </div>
 
                 <div>
                     <img
-                        src="./public/images/images/visa-png 1.png"
+                        class="logo"
+                        src="public/images/img/logo_FAH_blanc_mini.png"
+                        alt="logo_FAH_blanc"
+                    />
+                </div>
+                <div class="remove column">
+                    <a href="#">Confidentialité et cookies</a>
+                    <a href="#">Conditions générales</a>
+                </div>
+
+                <div class="banque">
+                    <img
+                        src="public/images/img/visa-png 1.png"
                         alt="carte_visa"
                     />
                     <img
-                        src="./public/images/images/mastercard-png 1.png"
+                        src="public/images/img/mastercard-png 1.png"
                         alt="carte_mastercard"
                     />
                     <img
-                        src="./public/images/images/visa-carte-bleue-png 1.png"
+                        src="public/images/img/visa-carte-bleue-png 1.png"
                         alt="carte_cb_visa"
                     />
                     <img
-                        src="./public/images/images/pay-pal-png 1.png"
+                        src="public/images/img/pay-pal-png 1.png"
                         alt="paypal"
                     />
                 </div>
@@ -355,22 +365,26 @@
                     <h2>Suivez-nous</h2>
 
                     <div class="reseau flex">
-                        <img
-                            src="./public/icons/icons/facebook-5-240.png"
-                            alt="icone_facebook"
-                        />
-                        <img
-                            src="./public/icons/icons/instagram-15-240.png"
-                            alt="icone_facebook"
-                        />
-                        <img
-                            src="./public/icons/icons/linkedin-5-240.png"
-                            alt="icone_facebook"
-                        />
-                        <img
-                            src="./public/icons/icons/linkedin-5-240.png"
-                            alt="icone_facebook"
-                        />
+                        <a href="#"
+                            ><img
+                                src="public/images/img/facebook-5-240.png"
+                                alt="icone_facebook"
+                        /></a>
+                        <a href="#"
+                            ><img
+                                src="public/images/img/instagram-15-240.png"
+                                alt="icone_facebook"
+                        /></a>
+                        <a href="#"
+                            ><img
+                                src="public/images/img/linkedin-5-240.png"
+                                alt="icone_facebook"
+                        /></a>
+                        <a href="#"
+                            ><img
+                                src="public/images/img/twitter-5-240.png"
+                                alt="icone_facebook"
+                        /></a>
                     </div>
                 </div>
             </section>
@@ -383,7 +397,7 @@
                         type="email"
                         id="email"
                         name="email"
-                        value="email@email.com"
+                        placeholder="monemail@email.com"
                     />
                     <button>Abonnez vous</button>
                     <p>
