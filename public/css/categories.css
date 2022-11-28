@@ -168,6 +168,11 @@ main {
     }
 }
 
+@media (max-width: 800px) {
+    .explore-offre {
+        top: 104px;
+    }
+}
 @media (max-width: 680px) {
     .row {
         flex-direction: column-reverse;

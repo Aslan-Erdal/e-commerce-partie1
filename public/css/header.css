@@ -92,6 +92,10 @@ nav form input {
     display: none;
 }
 
+header .logo-mobile {
+    display: none;
+}
+
 /* @media */
 @media (max-width: 920px) {
     header nav > div {
@@ -107,6 +111,8 @@ nav form input {
     }
     .burger {
         display: block !important;
+        border: 1px solid white;
+        border-radius: 6px;
     }
     .favoris {
         display: block !important;
@@ -136,5 +142,18 @@ nav form input {
     }
     .myStyle {
         visibility: visible !important;
+    }
+
+    header .logo-mobile {
+        display: block !important;
+        width: 70px;
+    }
+}
+@media (max-width: 600px) {
+    header .favoris-mobile {
+        display: none !important;
+    }
+    header .img-logo-mobile {
+        width: 63px;
     }
 }
