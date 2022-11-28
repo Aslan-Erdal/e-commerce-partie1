@@ -82,17 +82,30 @@ nav a:hover {
 
 .search {
     border-radius: 20px;
-    background: var(--color-white);
-    width: min(515px, 100%);
+    border: none;
+    width: min(400px, 100%);
     min-height: 45px;
     justify-content: flex-end;
     align-items: center;
-    padding: 10px;
+    position: relative;
+    font-size: 20px;
+}
+
+.search form button {
+    position: absolute;
+    right: 15px;
+    border: none;
+}
+
+.remove2{
+    padding: 0 10px;
+
 }
 
 .icon {
     gap: 30px;
 }
+
 
 /* //////////////////MAIN//////////////////// */
 
@@ -326,7 +339,6 @@ label {
         display: flex;
         justify-content: space-between;
         font-size: 16px;
-        padding: 20px;
         background: none;
         color: white;
         gap: 15px;
@@ -339,7 +351,7 @@ label {
     .relou {
         display: flex;
         flex-direction: row;
-        gap: 50px;
+        gap: 10px;
     }
 }
 
